@@ -9,7 +9,11 @@ router.post('/dcsvm', function(req, res, next) {
     var name = content.name;
     var allCond = content.condition.allOf[0];
     var subtitle = `${allCond.metricName} is ${allCond.operator} ${allCond.threshold} on ${allCond.timeAggregation}`;
-    var dimension = allCond.dimensions[0]
+    var dimensions = allCond.dimensions;
+    dimensions.push({
+        "name": "Actual Percentage",
+        "value": allCond.metricValue
+    });
     
     var card = {
         "@type": "MessageCard",
@@ -20,13 +24,7 @@ router.post('/dcsvm', function(req, res, next) {
             "activityTitle": name,
             "activitySubtitle": subtitle,
             // "activityImage": "https://teamsnodesample.azurewebsites.net/static/img/image5.png",
-            "facts": [{
-                "name": dimension.name,
-                "value": dimension.value
-            }, {
-                "name": "Actual Percentage",
-                "value": allCond.metricValue
-            }],
+            "facts": dimensions,
             "markdown": true
         }],
         "potentialAction": [{
@@ -38,7 +36,7 @@ router.post('/dcsvm', function(req, res, next) {
         }]
     };
     webhook.trigger('msteam4vmss', card);
-    res.json(req.body.data.context.condition.allOf[0]);
+    res.json(dimensions);
 });
 
 module.exports = router;
