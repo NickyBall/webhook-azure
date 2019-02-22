@@ -18,4 +18,10 @@ webHooks.add('msteam4vmss', 'https://outlook.office.com/webhook/e5919028-b41e-4e
     console.log(err)
 });
 
+webHooks.add('msteam4ai', 'https://outlook.office.com/webhook/e5919028-b41e-4efb-bfec-62564e26becf@1bf12a4f-2277-4d37-83db-525780663f76/IncomingWebhook/5fa7d887b43245348822703c55b3a4bc/b89b96b3-7b9a-4d34-ae36-e83156f15335').then(function(){
+// done
+}).catch(function(err){
+    console.log(err)
+});
+
 module.exports = webHooks;
