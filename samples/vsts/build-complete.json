@@ -1,0 +1,69 @@
+{
+    "subscriptionId": "baaf2795-6c8d-409b-b7bd-7b3b18e4065d",
+    "notificationId": 1,
+    "id": "3ec0c523-5991-41dc-976b-43c922d17677",
+    "eventType": "build.complete",
+    "publisherId": "tfs",
+    "message": {
+      "text": "Build 20190226.2 succeeded",
+      "html": "Build <a href=\"https://disruptscorporation.visualstudio.com/web/build.aspx?pcguid=5dbabe9d-fa02-4f31-bf5f-e05b9c29910f&amp;builduri=vstfs%3a%2f%2f%2fBuild%2fBuild%2f838\">20190226.2</a> succeeded",
+      "markdown": "Build [20190226.2](https://disruptscorporation.visualstudio.com/web/build.aspx?pcguid=5dbabe9d-fa02-4f31-bf5f-e05b9c29910f&builduri=vstfs%3a%2f%2f%2fBuild%2fBuild%2f838) succeeded"
+    },
+    "detailedMessage": {
+      "text": "Build 20190226.2 succeeded",
+      "html": "Build <a href=\"https://disruptscorporation.visualstudio.com/web/build.aspx?pcguid=5dbabe9d-fa02-4f31-bf5f-e05b9c29910f&amp;builduri=vstfs%3a%2f%2f%2fBuild%2fBuild%2f838\">20190226.2</a> succeeded",
+      "markdown": "Build [20190226.2](https://disruptscorporation.visualstudio.com/web/build.aspx?pcguid=5dbabe9d-fa02-4f31-bf5f-e05b9c29910f&builduri=vstfs%3a%2f%2f%2fBuild%2fBuild%2f838) succeeded"
+    },
+    "resource": {
+      "uri": "vstfs:///Build/Build/838",
+      "id": 838,
+      "buildNumber": "20190226.2",
+      "url": "https://disruptscorporation.visualstudio.com/0be890c3-002d-4d18-b188-83cc22e82918/_apis/build/Builds/838",
+      "startTime": "2019-02-26T06:22:35.9998728Z",
+      "finishTime": "2019-02-26T06:42:06.1639474Z",
+      "reason": "individualCI",
+      "status": "succeeded",
+      "drop": {},
+      "log": {},
+      "sourceGetVersion": "LG:refs/heads/Production:3ce519f9b66a2ca1e7a72973d5d29daec49d4522",
+      "lastChangedBy": {
+        "displayName": "Microsoft.VisualStudio.Services.TFS",
+        "id": "00000000-0000-0000-0000-000000000000",
+        "uniqueName": "00000002-0000-8888-8000-000000000000@2c895908-04e0-4952-89fd-54b0046d6288"
+      },
+      "retainIndefinitely": false,
+      "definition": {
+        "definitionType": "xaml",
+        "id": 19,
+        "name": "DCS Service-Azure Service Fabric Application-CI",
+        "url": "https://disruptscorporation.visualstudio.com/0be890c3-002d-4d18-b188-83cc22e82918/_apis/build/Definitions/19"
+      },
+      "requests": [
+        {
+          "id": 838,
+          "url": "https://disruptscorporation.visualstudio.com/0be890c3-002d-4d18-b188-83cc22e82918/_apis/build/Requests/838",
+          "requestedFor": {
+            "displayName": "Thongyos Songsat",
+            "id": "c70164a6-81b3-6faf-87e3-89b187e4502c",
+            "uniqueName": "thongyos.songsat@appswin.co.th"
+          }
+        }
+      ]
+    },
+    "resourceVersion": "1.0",
+    "resourceContainers": {
+      "collection": {
+        "id": "5dbabe9d-fa02-4f31-bf5f-e05b9c29910f",
+        "baseUrl": "https://disruptscorporation.visualstudio.com/"
+      },
+      "account": {
+        "id": "bc1a7427-44b2-4a4d-a595-4125e4818a54",
+        "baseUrl": "https://disruptscorporation.visualstudio.com/"
+      },
+      "project": {
+        "id": "0be890c3-002d-4d18-b188-83cc22e82918",
+        "baseUrl": "https://disruptscorporation.visualstudio.com/"
+      }
+    },
+    "createdDate": "2019-02-26T06:42:19.2081133Z"
+  }

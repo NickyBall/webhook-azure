@@ -1,0 +1,911 @@
+{
+    "subscriptionId": "e7f9c64c-0eda-45f3-b55b-278fea2b7a87",
+    "notificationId": 1,
+    "id": "5bf77905-6104-463b-b5c6-a55ddb9b4da2",
+    "eventType": "ms.vss-release.deployment-completed-event",
+    "publisherId": "rm",
+    "message": {
+      "text": "Deployment of release Release-593 on stage DCS Cluster succeeded.",
+      "html": "Deployment on stage <a href='https://disruptscorporation.visualstudio.com/DCS%20Service/_release?_a=environment-summary&definitionId=1&definitionEnvironmentId=1'>DCS Cluster</a> succeeded.",
+      "markdown": "Deployment on stage [DCS Cluster](https://disruptscorporation.visualstudio.com/DCS%20Service/_release?_a=environment-summary&definitionId=1&definitionEnvironmentId=1) succeeded."
+    },
+    "detailedMessage": {
+      "text": "Deployment of release Release-593 on stage DCS Cluster succeeded. Time to deploy: 00:30:13.",
+      "html": "Deployment on stage <a href='https://disruptscorporation.visualstudio.com/DCS%20Service/_release?_a=environment-summary&definitionId=1&definitionEnvironmentId=1'>DCS Cluster</a> succeeded. Time to deploy: 00:30:13.",
+      "markdown": "Deployment on stage [DCS Cluster](https://disruptscorporation.visualstudio.com/DCS%20Service/_release?_a=environment-summary&definitionId=1&definitionEnvironmentId=1) succeeded. Time to deploy: 00:30:13."
+    },
+    "resource": {
+      "environment": {
+        "id": 593,
+        "releaseId": 593,
+        "name": "DCS Cluster",
+        "status": "succeeded",
+        "variables": {},
+        "variableGroups": [],
+        "preDeployApprovals": [
+          {
+            "id": 1993,
+            "revision": 1,
+            "approvalType": "preDeploy",
+            "createdOn": "2019-02-26T04:23:05.483Z",
+            "modifiedOn": "2019-02-26T04:23:05.483Z",
+            "status": "approved",
+            "comments": "",
+            "isAutomated": true,
+            "isNotificationOn": false,
+            "trialNumber": 1,
+            "attempt": 1,
+            "rank": 1,
+            "release": {
+              "id": 593,
+              "name": "Release-593",
+              "url": "https://disruptscorporation.vsrm.visualstudio.com/0be890c3-002d-4d18-b188-83cc22e82918/_apis/Release/releases/593",
+              "_links": {}
+            },
+            "releaseDefinition": {
+              "id": 1,
+              "name": "DCS Release",
+              "path": "\\",
+              "projectReference": null,
+              "url": "https://disruptscorporation.vsrm.visualstudio.com/0be890c3-002d-4d18-b188-83cc22e82918/_apis/Release/definitions/1",
+              "_links": {}
+            },
+            "releaseEnvironment": {
+              "id": 593,
+              "name": "DCS Cluster",
+              "url": "https://disruptscorporation.vsrm.visualstudio.com/0be890c3-002d-4d18-b188-83cc22e82918/_apis/Release/releases/593/environments/593",
+              "_links": {}
+            },
+            "url": "https://disruptscorporation.vsrm.visualstudio.com/0be890c3-002d-4d18-b188-83cc22e82918/_apis/Release/approvals/1993"
+          }
+        ],
+        "postDeployApprovals": [
+          {
+            "id": 1995,
+            "revision": 1,
+            "approvalType": "postDeploy",
+            "createdOn": "2019-02-26T04:53:18.667Z",
+            "modifiedOn": "2019-02-26T04:53:18.667Z",
+            "status": "approved",
+            "comments": "",
+            "isAutomated": true,
+            "isNotificationOn": false,
+            "trialNumber": 1,
+            "attempt": 1,
+            "rank": 3,
+            "release": {
+              "id": 593,
+              "name": "Release-593",
+              "url": "https://disruptscorporation.vsrm.visualstudio.com/0be890c3-002d-4d18-b188-83cc22e82918/_apis/Release/releases/593",
+              "_links": {}
+            },
+            "releaseDefinition": {
+              "id": 1,
+              "name": "DCS Release",
+              "path": "\\",
+              "projectReference": null,
+              "url": "https://disruptscorporation.vsrm.visualstudio.com/0be890c3-002d-4d18-b188-83cc22e82918/_apis/Release/definitions/1",
+              "_links": {}
+            },
+            "releaseEnvironment": {
+              "id": 593,
+              "name": "DCS Cluster",
+              "url": "https://disruptscorporation.vsrm.visualstudio.com/0be890c3-002d-4d18-b188-83cc22e82918/_apis/Release/releases/593/environments/593",
+              "_links": {}
+            },
+            "url": "https://disruptscorporation.vsrm.visualstudio.com/0be890c3-002d-4d18-b188-83cc22e82918/_apis/Release/approvals/1995"
+          }
+        ],
+        "preApprovalsSnapshot": {
+          "approvals": []
+        },
+        "postApprovalsSnapshot": {
+          "approvals": []
+        },
+        "deploySteps": [
+          {
+            "id": 1994,
+            "deploymentId": 672,
+            "attempt": 1,
+            "reason": "automated",
+            "status": "succeeded",
+            "operationStatus": "Approved",
+            "releaseDeployPhases": [
+              {
+                "id": 672,
+                "phaseId": "672",
+                "name": "Agent phase",
+                "rank": 1,
+                "phaseType": "agentBasedDeployment",
+                "status": "succeeded",
+                "runPlanId": "4cf80826-53f3-4711-8653-42cae7aa641d",
+                "deploymentJobs": [
+                  {
+                    "job": {
+                      "id": 7,
+                      "timelineRecordId": "082f1528-3384-490a-b0c4-ee5ca11c576f",
+                      "name": "Release",
+                      "dateStarted": "2019-02-26T04:23:47.987Z",
+                      "dateEnded": "2019-02-26T04:53:15.873Z",
+                      "startTime": "2019-02-26T04:23:47.987Z",
+                      "finishTime": "2019-02-26T04:53:15.873Z",
+                      "status": "succeeded",
+                      "rank": 1,
+                      "issues": [],
+                      "agentName": "Hosted Agent"
+                    },
+                    "tasks": [
+                      {
+                        "id": 2,
+                        "timelineRecordId": "ff08f819-e76e-445e-af5e-b8042eebcd00",
+                        "name": "Initialize Agent",
+                        "dateStarted": "2019-02-26T04:23:42.02Z",
+                        "dateEnded": "2019-02-26T04:23:44.777Z",
+                        "startTime": "2019-02-26T04:23:42.02Z",
+                        "finishTime": "2019-02-26T04:23:44.777Z",
+                        "status": "succeeded",
+                        "rank": 0,
+                        "issues": [],
+                        "agentName": "Hosted Agent"
+                      },
+                      {
+                        "id": 3,
+                        "timelineRecordId": "9d14f7aa-730b-4900-80be-e9b9c401601c",
+                        "name": "Initialize Job",
+                        "dateStarted": "2019-02-26T04:23:48.207Z",
+                        "dateEnded": "2019-02-26T04:23:50.817Z",
+                        "startTime": "2019-02-26T04:23:48.207Z",
+                        "finishTime": "2019-02-26T04:23:50.817Z",
+                        "status": "succeeded",
+                        "rank": 1,
+                        "issues": [],
+                        "agentName": "Hosted Agent"
+                      },
+                      {
+                        "id": 4,
+                        "timelineRecordId": "d487150a-9b04-405a-abe8-5b2fd7ea1336",
+                        "name": "Download artifact - DCS Service-Azure Service Fabric Application-CI - drop",
+                        "dateStarted": "2019-02-26T04:23:50.83Z",
+                        "dateEnded": "2019-02-26T04:25:14.023Z",
+                        "startTime": "2019-02-26T04:23:50.83Z",
+                        "finishTime": "2019-02-26T04:25:14.023Z",
+                        "status": "succeeded",
+                        "rank": 2,
+                        "issues": [],
+                        "task": {
+                          "id": "a433f589-fce1-4460-9ee6-44a624aeb1fb",
+                          "name": "DownloadBuildArtifacts",
+                          "version": "0.146.0"
+                        },
+                        "agentName": "Hosted Agent"
+                      },
+                      {
+                        "id": 5,
+                        "timelineRecordId": "674ad1ec-ce79-4e57-86d5-09c7fb175ad9",
+                        "name": "Deploy Service Fabric Application",
+                        "dateStarted": "2019-02-26T04:25:14.027Z",
+                        "dateEnded": "2019-02-26T04:53:15.853Z",
+                        "startTime": "2019-02-26T04:25:14.027Z",
+                        "finishTime": "2019-02-26T04:53:15.853Z",
+                        "status": "succeeded",
+                        "rank": 3,
+                        "issues": [],
+                        "task": {
+                          "id": "c6650aa0-185b-11e6-a47d-df93e7a34c64",
+                          "name": "ServiceFabricDeploy",
+                          "version": "1.7.31"
+                        },
+                        "agentName": "Hosted Agent"
+                      },
+                      {
+                        "id": 6,
+                        "timelineRecordId": "e493990d-ff8f-4772-b5d4-379ddb1040ac",
+                        "name": "Finalize Job",
+                        "dateStarted": "2019-02-26T04:53:15.86Z",
+                        "dateEnded": "2019-02-26T04:53:15.867Z",
+                        "startTime": "2019-02-26T04:53:15.86Z",
+                        "finishTime": "2019-02-26T04:53:15.867Z",
+                        "status": "succeeded",
+                        "percentComplete": 100,
+                        "rank": 4,
+                        "issues": [],
+                        "agentName": "Hosted Agent"
+                      }
+                    ]
+                  }
+                ],
+                "manualInterventions": [],
+                "startedOn": "2019-02-26T04:23:09.11Z"
+              }
+            ],
+            "requestedBy": {
+              "displayName": "Microsoft.VisualStudio.Services.ReleaseManagement",
+              "id": "0000000d-0000-8888-8000-000000000000",
+              "uniqueName": "0000000d-0000-8888-8000-000000000000@2c895908-04e0-4952-89fd-54b0046d6288",
+              "descriptor": "s2s.MDAwMDAwMGQtMDAwMC04ODg4LTgwMDAtMDAwMDAwMDAwMDAwQDJjODk1OTA4LTA0ZTAtNDk1Mi04OWZkLTU0YjAwNDZkNjI4OA"
+            },
+            "requestedFor": {
+              "displayName": "Jakkrit Junrat",
+              "url": "https://spsprodcus3.vssps.visualstudio.com/Abc1a7427-44b2-4a4d-a595-4125e4818a54/_apis/Identities/72b3277f-9e2d-61ca-bb7c-e101a4a6359b",
+              "_links": {
+                "avatar": {
+                  "href": "https://disruptscorporation.visualstudio.com/_apis/GraphProfile/MemberAvatars/aad.NzJiMzI3N2YtOWUyZC03MWNhLWJiN2MtZTEwMWE0YTYzNTli"
+                }
+              },
+              "id": "72b3277f-9e2d-61ca-bb7c-e101a4a6359b",
+              "uniqueName": "j.jakkrit@appswin.co.th",
+              "imageUrl": "https://disruptscorporation.visualstudio.com/_api/_common/identityImage?id=72b3277f-9e2d-61ca-bb7c-e101a4a6359b",
+              "descriptor": "aad.NzJiMzI3N2YtOWUyZC03MWNhLWJiN2MtZTEwMWE0YTYzNTli"
+            },
+            "queuedOn": "2019-02-26T04:23:05.36Z",
+            "lastModifiedBy": {
+              "displayName": "Microsoft.VisualStudio.Services.ReleaseManagement",
+              "id": "0000000d-0000-8888-8000-000000000000",
+              "uniqueName": "0000000d-0000-8888-8000-000000000000@2c895908-04e0-4952-89fd-54b0046d6288",
+              "descriptor": "s2s.MDAwMDAwMGQtMDAwMC04ODg4LTgwMDAtMDAwMDAwMDAwMDAwQDJjODk1OTA4LTA0ZTAtNDk1Mi04OWZkLTU0YjAwNDZkNjI4OA"
+            },
+            "lastModifiedOn": "2019-02-26T04:53:18.683Z",
+            "hasStarted": true,
+            "tasks": [],
+            "runPlanId": "00000000-0000-0000-0000-000000000000",
+            "issues": []
+          }
+        ],
+        "rank": 1,
+        "definitionEnvironmentId": 1,
+        "environmentOptions": {
+          "emailNotificationType": "OnlyOnFailure",
+          "emailRecipients": "release.environment.owner;release.creator",
+          "skipArtifactsDownload": false,
+          "timeoutInMinutes": 0,
+          "enableAccessToken": false,
+          "publishDeploymentStatus": true,
+          "badgeEnabled": false,
+          "autoLinkWorkItems": false,
+          "pullRequestDeploymentEnabled": false
+        },
+        "demands": [],
+        "conditions": [
+          {
+            "result": true,
+            "name": "ReleaseStarted",
+            "conditionType": "event",
+            "value": ""
+          }
+        ],
+        "createdOn": "2019-02-26T04:23:05.36Z",
+        "modifiedOn": "2019-02-26T04:53:18.667Z",
+        "workflowTasks": [],
+        "deployPhasesSnapshot": [
+          {
+            "deploymentInput": {
+              "parallelExecution": {
+                "parallelExecutionType": "none"
+              },
+              "skipArtifactsDownload": false,
+              "artifactsDownloadInput": {
+                "downloadInputs": [
+                  {
+                    "artifactItems": [],
+                    "alias": "DCS Service-Azure Service Fabric Application-CI",
+                    "artifactType": "Build",
+                    "artifactDownloadMode": "All"
+                  }
+                ]
+              },
+              "queueId": 39,
+              "demands": [],
+              "enableAccessToken": false,
+              "timeoutInMinutes": 0,
+              "jobCancelTimeoutInMinutes": 1,
+              "condition": "succeeded()",
+              "overrideInputs": {}
+            },
+            "rank": 1,
+            "phaseType": "agentBasedDeployment",
+            "name": "Agent phase",
+            "refName": null,
+            "workflowTasks": []
+          }
+        ],
+        "owner": {
+          "displayName": "Jakkrit Junrat",
+          "url": "https://spsprodcus3.vssps.visualstudio.com/Abc1a7427-44b2-4a4d-a595-4125e4818a54/_apis/Identities/72b3277f-9e2d-61ca-bb7c-e101a4a6359b",
+          "_links": {
+            "avatar": {
+              "href": "https://disruptscorporation.visualstudio.com/_apis/GraphProfile/MemberAvatars/aad.NzJiMzI3N2YtOWUyZC03MWNhLWJiN2MtZTEwMWE0YTYzNTli"
+            }
+          },
+          "id": "72b3277f-9e2d-61ca-bb7c-e101a4a6359b",
+          "uniqueName": "j.jakkrit@appswin.co.th",
+          "imageUrl": "https://disruptscorporation.visualstudio.com/_api/_common/identityImage?id=72b3277f-9e2d-61ca-bb7c-e101a4a6359b",
+          "descriptor": "aad.NzJiMzI3N2YtOWUyZC03MWNhLWJiN2MtZTEwMWE0YTYzNTli"
+        },
+        "schedules": [],
+        "release": {
+          "id": 593,
+          "name": "Release-593",
+          "url": "https://disruptscorporation.vsrm.visualstudio.com/0be890c3-002d-4d18-b188-83cc22e82918/_apis/Release/releases/593",
+          "_links": {
+            "web": {
+              "href": "https://disruptscorporation.visualstudio.com/0be890c3-002d-4d18-b188-83cc22e82918/_release?releaseId=593&_a=release-summary"
+            },
+            "self": {
+              "href": "https://disruptscorporation.vsrm.visualstudio.com/0be890c3-002d-4d18-b188-83cc22e82918/_apis/Release/releases/593"
+            }
+          }
+        },
+        "releaseDefinition": {
+          "id": 1,
+          "name": "DCS Release",
+          "path": "\\",
+          "projectReference": null,
+          "url": "https://disruptscorporation.vsrm.visualstudio.com/0be890c3-002d-4d18-b188-83cc22e82918/_apis/Release/definitions/1",
+          "_links": {
+            "web": {
+              "href": "https://disruptscorporation.visualstudio.com/0be890c3-002d-4d18-b188-83cc22e82918/_release?definitionId=1"
+            },
+            "self": {
+              "href": "https://disruptscorporation.vsrm.visualstudio.com/0be890c3-002d-4d18-b188-83cc22e82918/_apis/Release/definitions/1"
+            }
+          }
+        },
+        "releaseCreatedBy": {
+          "displayName": "Jakkrit Junrat",
+          "url": "https://spsprodcus3.vssps.visualstudio.com/Abc1a7427-44b2-4a4d-a595-4125e4818a54/_apis/Identities/72b3277f-9e2d-61ca-bb7c-e101a4a6359b",
+          "_links": {
+            "avatar": {
+              "href": "https://disruptscorporation.visualstudio.com/_apis/GraphProfile/MemberAvatars/aad.NzJiMzI3N2YtOWUyZC03MWNhLWJiN2MtZTEwMWE0YTYzNTli"
+            }
+          },
+          "id": "72b3277f-9e2d-61ca-bb7c-e101a4a6359b",
+          "uniqueName": "j.jakkrit@appswin.co.th",
+          "imageUrl": "https://disruptscorporation.visualstudio.com/_api/_common/identityImage?id=72b3277f-9e2d-61ca-bb7c-e101a4a6359b",
+          "descriptor": "aad.NzJiMzI3N2YtOWUyZC03MWNhLWJiN2MtZTEwMWE0YTYzNTli"
+        },
+        "triggerReason": "ReleaseStarted",
+        "timeToDeploy": 30.218383333333335,
+        "processParameters": {
+          "inputs": [
+            {
+              "aliases": [],
+              "options": {},
+              "properties": {},
+              "name": "applicationPackagePath",
+              "label": "Application package",
+              "defaultValue": "$(system.defaultworkingdirectory)/**/drop/applicationpackage",
+              "required": true,
+              "type": "filePath",
+              "helpMarkDown": "Path to the application package that is to be deployed. [Variables](https://go.microsoft.com/fwlink/?LinkID=550988) and wildcards can be used in the path.",
+              "visibleRule": "",
+              "groupName": ""
+            },
+            {
+              "aliases": [],
+              "options": {},
+              "properties": {},
+              "name": "serviceConnectionName",
+              "label": "Cluster connection",
+              "defaultValue": "eabad513-cbe2-44e5-9e76-0cebd4255e2e",
+              "required": true,
+              "type": "connectedService:servicefabric",
+              "helpMarkDown": "Select an Azure Service Fabric service endpoint to be used to connect to the cluster. The settings defined in this referenced endpoint will override those defined in the publish profile. Choose 'Manage' to register a new endpoint.",
+              "visibleRule": "",
+              "groupName": ""
+            }
+          ]
+        },
+        "preDeploymentGatesSnapshot": {
+          "id": 0,
+          "gatesOptions": null,
+          "gates": []
+        },
+        "postDeploymentGatesSnapshot": {
+          "id": 0,
+          "gatesOptions": null,
+          "gates": []
+        }
+      },
+      "project": {
+        "id": "0be890c3-002d-4d18-b188-83cc22e82918",
+        "name": "DCS Service"
+      },
+      "deployment": {
+        "id": 672,
+        "release": {
+          "id": 593,
+          "name": "Release-593",
+          "url": "https://disruptscorporation.vsrm.visualstudio.com/0be890c3-002d-4d18-b188-83cc22e82918/_apis/Release/releases/593",
+          "artifacts": [
+            {
+              "sourceId": "0be890c3-002d-4d18-b188-83cc22e82918:19",
+              "type": "Build",
+              "alias": "DCS Service-Azure Service Fabric Application-CI",
+              "definitionReference": {
+                "artifactSourceDefinitionUrl": {
+                  "id": "https://disruptscorporation.visualstudio.com/_permalink/_build/index?collectionId=5dbabe9d-fa02-4f31-bf5f-e05b9c29910f&projectId=0be890c3-002d-4d18-b188-83cc22e82918&definitionId=19",
+                  "name": ""
+                },
+                "buildUri": {
+                  "id": "vstfs:///Build/Build/837",
+                  "name": null
+                },
+                "definition": {
+                  "id": "19",
+                  "name": "DCS Service-Azure Service Fabric Application-CI"
+                },
+                "IsTriggeringArtifact": {
+                  "id": "True",
+                  "name": "True"
+                },
+                "IsXamlBuildArtifactType": {
+                  "id": "False",
+                  "name": null
+                },
+                "pullRequestMergeCommitId": {
+                  "id": "1f9afee037c20385cdd4cd34a758fd1ff504e9b4",
+                  "name": null
+                },
+                "project": {
+                  "id": "0be890c3-002d-4d18-b188-83cc22e82918",
+                  "name": "DCS Service"
+                },
+                "repository.provider": {
+                  "id": "TfsGit",
+                  "name": null
+                },
+                "repository": {
+                  "id": "90215b37-438f-4ee4-b3ff-ccf9f008d90b",
+                  "name": "DCS Service"
+                },
+                "requestedFor": {
+                  "id": "Jakkrit Junrat",
+                  "name": null
+                },
+                "requestedForId": {
+                  "id": "72b3277f-9e2d-61ca-bb7c-e101a4a6359b",
+                  "name": null
+                },
+                "sourceVersion": {
+                  "id": "1f9afee037c20385cdd4cd34a758fd1ff504e9b4",
+                  "name": null
+                },
+                "version": {
+                  "id": "837",
+                  "name": "20190226.1"
+                },
+                "artifactSourceVersionUrl": {
+                  "id": "https://disruptscorporation.visualstudio.com/_permalink/_build/index?collectionId=5dbabe9d-fa02-4f31-bf5f-e05b9c29910f&projectId=0be890c3-002d-4d18-b188-83cc22e82918&buildId=837",
+                  "name": ""
+                },
+                "branch": {
+                  "id": "refs/heads/Production",
+                  "name": "refs/heads/Production"
+                }
+              },
+              "isPrimary": true,
+              "isRetained": true
+            }
+          ],
+          "webAccessUri": "https://disruptscorporation.visualstudio.com/0be890c3-002d-4d18-b188-83cc22e82918/_release?releaseId=593&_a=release-summary",
+          "_links": {
+            "self": {
+              "href": "https://disruptscorporation.vsrm.visualstudio.com/0be890c3-002d-4d18-b188-83cc22e82918/_apis/Release/releases/593"
+            },
+            "web": {
+              "href": "https://disruptscorporation.visualstudio.com/DCS%20Service/_release?releaseId=593&_a=release-summary"
+            },
+            "logs": {
+              "href": "https://disruptscorporation.visualstudio.com/DCS%20Service/_release?releaseId=593&_a=release-logs&environmentId=593&releaseEnvironmentId=593"
+            }
+          },
+          "description": "Triggered by DCS Service-Azure Service Fabric Application-CI 20190226.1.",
+          "reason": "continuousIntegration"
+        },
+        "releaseDefinition": {
+          "id": 1,
+          "name": "DCS Release",
+          "path": "\\",
+          "projectReference": {
+            "id": "0be890c3-002d-4d18-b188-83cc22e82918",
+            "name": null
+          },
+          "url": "https://disruptscorporation.vsrm.visualstudio.com/0be890c3-002d-4d18-b188-83cc22e82918/_apis/Release/definitions/1",
+          "_links": {
+            "self": {
+              "href": "https://disruptscorporation.vsrm.visualstudio.com/0be890c3-002d-4d18-b188-83cc22e82918/_apis/Release/definitions/1"
+            },
+            "web": {
+              "href": "https://disruptscorporation.visualstudio.com/0be890c3-002d-4d18-b188-83cc22e82918/_release?definitionId=1"
+            }
+          }
+        },
+        "releaseEnvironment": {
+          "id": 593,
+          "name": "DCS Cluster",
+          "url": "https://disruptscorporation.vsrm.visualstudio.com/0be890c3-002d-4d18-b188-83cc22e82918/_apis/Release/releases/593/environments/593",
+          "_links": {
+            "self": {
+              "href": "https://disruptscorporation.vsrm.visualstudio.com/0be890c3-002d-4d18-b188-83cc22e82918/_apis/Release/releases/593/environments/593"
+            },
+            "web": {
+              "href": "https://disruptscorporation.visualstudio.com/0be890c3-002d-4d18-b188-83cc22e82918/_release?releaseId=593&_a=release-logs&environmentId=593&releaseEnvironmentId=593"
+            }
+          }
+        },
+        "projectReference": null,
+        "definitionEnvironmentId": 1,
+        "attempt": 1,
+        "reason": "automated",
+        "deploymentStatus": "succeeded",
+        "operationStatus": "Approved",
+        "requestedBy": {
+          "displayName": "Microsoft.VisualStudio.Services.ReleaseManagement",
+          "id": "0000000d-0000-8888-8000-000000000000",
+          "uniqueName": "0000000d-0000-8888-8000-000000000000@2c895908-04e0-4952-89fd-54b0046d6288",
+          "descriptor": "s2s.MDAwMDAwMGQtMDAwMC04ODg4LTgwMDAtMDAwMDAwMDAwMDAwQDJjODk1OTA4LTA0ZTAtNDk1Mi04OWZkLTU0YjAwNDZkNjI4OA"
+        },
+        "requestedFor": {
+          "displayName": "Jakkrit Junrat",
+          "url": "https://spsprodcus3.vssps.visualstudio.com/Abc1a7427-44b2-4a4d-a595-4125e4818a54/_apis/Identities/72b3277f-9e2d-61ca-bb7c-e101a4a6359b",
+          "_links": {
+            "avatar": {
+              "href": "https://disruptscorporation.visualstudio.com/_apis/GraphProfile/MemberAvatars/aad.NzJiMzI3N2YtOWUyZC03MWNhLWJiN2MtZTEwMWE0YTYzNTli"
+            }
+          },
+          "id": "72b3277f-9e2d-61ca-bb7c-e101a4a6359b",
+          "uniqueName": "j.jakkrit@appswin.co.th",
+          "imageUrl": "https://disruptscorporation.visualstudio.com/_api/_common/identityImage?id=72b3277f-9e2d-61ca-bb7c-e101a4a6359b",
+          "descriptor": "aad.NzJiMzI3N2YtOWUyZC03MWNhLWJiN2MtZTEwMWE0YTYzNTli"
+        },
+        "queuedOn": "2019-02-26T04:23:05.36Z",
+        "startedOn": "2019-02-26T04:23:09.11Z",
+        "completedOn": "2019-02-26T04:53:18.683Z",
+        "lastModifiedOn": "2019-02-26T04:53:18.683Z",
+        "lastModifiedBy": {
+          "displayName": "Microsoft.VisualStudio.Services.ReleaseManagement",
+          "id": "0000000d-0000-8888-8000-000000000000",
+          "uniqueName": "0000000d-0000-8888-8000-000000000000@2c895908-04e0-4952-89fd-54b0046d6288",
+          "descriptor": "s2s.MDAwMDAwMGQtMDAwMC04ODg4LTgwMDAtMDAwMDAwMDAwMDAwQDJjODk1OTA4LTA0ZTAtNDk1Mi04OWZkLTU0YjAwNDZkNjI4OA"
+        },
+        "conditions": [
+          {
+            "name": "ReleaseStarted",
+            "conditionType": "event",
+            "value": ""
+          }
+        ],
+        "preDeployApprovals": [
+          {
+            "id": 1993,
+            "revision": 1,
+            "approvalType": "preDeploy",
+            "createdOn": "2019-02-26T04:23:05.483Z",
+            "modifiedOn": "2019-02-26T04:23:05.483Z",
+            "status": "approved",
+            "comments": "",
+            "isAutomated": true,
+            "isNotificationOn": false,
+            "trialNumber": 1,
+            "attempt": 1,
+            "rank": 1,
+            "release": {
+              "id": 593,
+              "name": "",
+              "url": "https://disruptscorporation.vsrm.visualstudio.com/0be890c3-002d-4d18-b188-83cc22e82918/_apis/Release/releases/593",
+              "_links": {}
+            },
+            "releaseDefinition": {
+              "id": 0,
+              "name": "",
+              "projectReference": null,
+              "url": "https://disruptscorporation.vsrm.visualstudio.com/0be890c3-002d-4d18-b188-83cc22e82918/_apis/Release/definitions/0",
+              "_links": {}
+            },
+            "releaseEnvironment": {
+              "id": 593,
+              "name": "",
+              "url": "https://disruptscorporation.vsrm.visualstudio.com/0be890c3-002d-4d18-b188-83cc22e82918/_apis/Release/releases/593/environments/593",
+              "_links": {}
+            },
+            "url": "https://disruptscorporation.vsrm.visualstudio.com/0be890c3-002d-4d18-b188-83cc22e82918/_apis/Release/approvals/1993"
+          }
+        ],
+        "postDeployApprovals": [
+          {
+            "id": 1995,
+            "revision": 1,
+            "approvalType": "postDeploy",
+            "createdOn": "2019-02-26T04:53:18.667Z",
+            "modifiedOn": "2019-02-26T04:53:18.667Z",
+            "status": "approved",
+            "comments": "",
+            "isAutomated": true,
+            "isNotificationOn": false,
+            "trialNumber": 1,
+            "attempt": 1,
+            "rank": 3,
+            "release": {
+              "id": 593,
+              "name": "",
+              "url": "https://disruptscorporation.vsrm.visualstudio.com/0be890c3-002d-4d18-b188-83cc22e82918/_apis/Release/releases/593",
+              "_links": {}
+            },
+            "releaseDefinition": {
+              "id": 0,
+              "name": "",
+              "projectReference": null,
+              "url": "https://disruptscorporation.vsrm.visualstudio.com/0be890c3-002d-4d18-b188-83cc22e82918/_apis/Release/definitions/0",
+              "_links": {}
+            },
+            "releaseEnvironment": {
+              "id": 593,
+              "name": "",
+              "url": "https://disruptscorporation.vsrm.visualstudio.com/0be890c3-002d-4d18-b188-83cc22e82918/_apis/Release/releases/593/environments/593",
+              "_links": {}
+            },
+            "url": "https://disruptscorporation.vsrm.visualstudio.com/0be890c3-002d-4d18-b188-83cc22e82918/_apis/Release/approvals/1995"
+          }
+        ],
+        "_links": {}
+      },
+      "comment": "",
+      "data": {
+        "releaseProperties": "{\"DownloadBuildArtifactsUsingTask\":{\"$type\":\"System.String\",\"$value\":\"True\"},\"ReleaseCreationSource\":{\"$type\":\"System.String\",\"$value\":\"AutoFromBuild\"}}",
+        "environmentStatuses": "{\"1\":\"Succeeded\"}",
+        "workItems": [],
+        "previousReleaseEnvironment": {
+          "id": 592,
+          "releaseId": 592,
+          "name": "DCS Cluster",
+          "status": "succeeded",
+          "variables": {},
+          "variableGroups": [],
+          "preDeployApprovals": [],
+          "postDeployApprovals": [],
+          "preApprovalsSnapshot": {
+            "approvals": []
+          },
+          "postApprovalsSnapshot": {
+            "approvals": []
+          },
+          "deploySteps": [
+            {
+              "id": 0,
+              "deploymentId": 671,
+              "attempt": 1,
+              "reason": "automated",
+              "status": "succeeded",
+              "operationStatus": "Approved",
+              "releaseDeployPhases": [
+                {
+                  "id": 671,
+                  "phaseId": "671",
+                  "name": "Run on agent",
+                  "rank": 1,
+                  "phaseType": "agentBasedDeployment",
+                  "status": "succeeded",
+                  "runPlanId": null,
+                  "deploymentJobs": [],
+                  "errorLog": "",
+                  "manualInterventions": [],
+                  "startedOn": "2019-02-25T08:42:56.417Z"
+                }
+              ],
+              "requestedBy": {
+                "displayName": null,
+                "id": "0000000d-0000-8888-8000-000000000000"
+              },
+              "requestedFor": {
+                "displayName": null,
+                "id": "c70164a6-81b3-6faf-87e3-89b187e4502c"
+              },
+              "queuedOn": "2019-02-25T08:42:53.243Z",
+              "lastModifiedBy": {
+                "displayName": null,
+                "id": "0000000d-0000-8888-8000-000000000000"
+              },
+              "lastModifiedOn": "2019-02-25T09:12:10.693Z",
+              "hasStarted": true,
+              "tasks": [],
+              "runPlanId": "00000000-0000-0000-0000-000000000000",
+              "issues": []
+            }
+          ],
+          "rank": 1,
+          "definitionEnvironmentId": 1,
+          "environmentOptions": {
+            "emailNotificationType": "OnlyOnFailure",
+            "emailRecipients": "release.environment.owner;release.creator",
+            "skipArtifactsDownload": false,
+            "timeoutInMinutes": 0,
+            "enableAccessToken": false,
+            "publishDeploymentStatus": true,
+            "badgeEnabled": false,
+            "autoLinkWorkItems": false,
+            "pullRequestDeploymentEnabled": false
+          },
+          "demands": [],
+          "conditions": [
+            {
+              "result": true,
+              "name": "ReleaseStarted",
+              "conditionType": "event",
+              "value": ""
+            }
+          ],
+          "workflowTasks": [],
+          "deployPhasesSnapshot": [],
+          "owner": {
+            "displayName": null,
+            "id": "72b3277f-9e2d-61ca-bb7c-e101a4a6359b"
+          },
+          "schedules": [],
+          "release": {
+            "id": 592,
+            "name": "Release-592",
+            "url": "https://disruptscorporation.vsrm.visualstudio.com/0be890c3-002d-4d18-b188-83cc22e82918/_apis/Release/releases/592",
+            "_links": {
+              "web": {
+                "href": "https://disruptscorporation.visualstudio.com/0be890c3-002d-4d18-b188-83cc22e82918/_release?releaseId=592&_a=release-summary"
+              },
+              "self": {
+                "href": "https://disruptscorporation.vsrm.visualstudio.com/0be890c3-002d-4d18-b188-83cc22e82918/_apis/Release/releases/592"
+              }
+            }
+          },
+          "releaseDefinition": {
+            "id": 1,
+            "name": "DCS Release",
+            "path": "\\",
+            "projectReference": null,
+            "url": "https://disruptscorporation.vsrm.visualstudio.com/0be890c3-002d-4d18-b188-83cc22e82918/_apis/Release/definitions/1",
+            "_links": {
+              "web": {
+                "href": "https://disruptscorporation.visualstudio.com/0be890c3-002d-4d18-b188-83cc22e82918/_release?definitionId=1"
+              },
+              "self": {
+                "href": "https://disruptscorporation.vsrm.visualstudio.com/0be890c3-002d-4d18-b188-83cc22e82918/_apis/Release/definitions/1"
+              }
+            }
+          },
+          "releaseCreatedBy": {
+            "displayName": null,
+            "id": "c70164a6-81b3-6faf-87e3-89b187e4502c"
+          },
+          "triggerReason": "ReleaseStarted",
+          "processParameters": {},
+          "preDeploymentGatesSnapshot": {
+            "id": 0,
+            "gatesOptions": null,
+            "gates": []
+          },
+          "postDeploymentGatesSnapshot": {
+            "id": 0,
+            "gatesOptions": null,
+            "gates": []
+          }
+        },
+        "commits": [
+          {
+            "id": "1f9afee037c20385cdd4cd34a758fd1ff504e9b4",
+            "message": "Add Log to SmsBalanceAsync",
+            "author": {
+              "displayName": "Jakkrit Junrat",
+              "_links": {
+                "avatar": {
+                  "href": "https://www.gravatar.com/avatar/5c812730d9dd309c02326e63264cf4f7?r=g&d=mm"
+                }
+              },
+              "id": null,
+              "uniqueName": "ball_vong_yo_gh@hotmail.com"
+            },
+            "timestamp": "2019-02-26T04:04:18Z",
+            "location": "https://disruptscorporation.visualstudio.com/_apis/git/repositories/90215b37-438f-4ee4-b3ff-ccf9f008d90b/commits/1f9afee037c20385cdd4cd34a758fd1ff504e9b4",
+            "displayUri": "https://disruptscorporation.visualstudio.com/DCS%20Service/_git/90215b37-438f-4ee4-b3ff-ccf9f008d90b/commit/1f9afee037c20385cdd4cd34a758fd1ff504e9b4"
+          },
+          {
+            "id": "cfcd317c1b74d5a8ec8e98f2a393b22db450012e",
+            "message": "Merge remote-tracking branch 'origin/master' into master-ball",
+            "author": {
+              "displayName": "Jakkrit Junrat",
+              "_links": {
+                "avatar": {
+                  "href": "https://www.gravatar.com/avatar/5c812730d9dd309c02326e63264cf4f7?r=g&d=mm"
+                }
+              },
+              "id": null,
+              "uniqueName": "ball_vong_yo_gh@hotmail.com"
+            },
+            "timestamp": "2019-02-26T04:00:05Z",
+            "location": "https://disruptscorporation.visualstudio.com/_apis/git/repositories/90215b37-438f-4ee4-b3ff-ccf9f008d90b/commits/cfcd317c1b74d5a8ec8e98f2a393b22db450012e",
+            "displayUri": "https://disruptscorporation.visualstudio.com/DCS%20Service/_git/90215b37-438f-4ee4-b3ff-ccf9f008d90b/commit/cfcd317c1b74d5a8ec8e98f2a393b22db450012e"
+          },
+          {
+            "id": "0465e809d283c27f04b7894f444a0c9c13bd3ec7",
+            "message": "Complete Custom Task",
+            "author": {
+              "displayName": "Khomsan Phonsai",
+              "_links": {
+                "avatar": {
+                  "href": "https://www.gravatar.com/avatar/3ea40587cc2577d746a8de7dd771b25d?r=g&d=mm"
+                }
+              },
+              "id": null,
+              "uniqueName": "greefeet@hotmail.com"
+            },
+            "timestamp": "2019-02-25T08:24:26Z",
+            "location": "https://disruptscorporation.visualstudio.com/_apis/git/repositories/90215b37-438f-4ee4-b3ff-ccf9f008d90b/commits/0465e809d283c27f04b7894f444a0c9c13bd3ec7",
+            "displayUri": "https://disruptscorporation.visualstudio.com/DCS%20Service/_git/90215b37-438f-4ee4-b3ff-ccf9f008d90b/commit/0465e809d283c27f04b7894f444a0c9c13bd3ec7"
+          },
+          {
+            "id": "1447959d3465aa0c03b684430b808eecb7698b8d",
+            "message": "Add Custom Task",
+            "author": {
+              "displayName": "Khomsan Phonsai",
+              "_links": {
+                "avatar": {
+                  "href": "https://www.gravatar.com/avatar/3ea40587cc2577d746a8de7dd771b25d?r=g&d=mm"
+                }
+              },
+              "id": null,
+              "uniqueName": "greefeet@hotmail.com"
+            },
+            "timestamp": "2019-02-25T07:10:08Z",
+            "location": "https://disruptscorporation.visualstudio.com/_apis/git/repositories/90215b37-438f-4ee4-b3ff-ccf9f008d90b/commits/1447959d3465aa0c03b684430b808eecb7698b8d",
+            "displayUri": "https://disruptscorporation.visualstudio.com/DCS%20Service/_git/90215b37-438f-4ee4-b3ff-ccf9f008d90b/commit/1447959d3465aa0c03b684430b808eecb7698b8d"
+          }
+        ],
+        "testResults": {
+          "aggregatedResultsAnalysis": {
+            "previousContext": {
+              "contextType": 0,
+              "build": null,
+              "release": null
+            },
+            "totalTests": 0,
+            "duration": "00:00:00",
+            "resultsByOutcome": {},
+            "runSummaryByState": {},
+            "runSummaryByOutcome": {}
+          },
+          "testResultsContext": {
+            "contextType": "release",
+            "build": null,
+            "release": {
+              "id": 593,
+              "name": null,
+              "environmentId": 593,
+              "environmentName": null,
+              "definitionId": 0,
+              "environmentDefinitionId": 0,
+              "environmentDefinitionName": null
+            }
+          },
+          "teamProject": {
+            "id": "0be890c3-002d-4d18-b188-83cc22e82918",
+            "name": "DCS Service",
+            "state": "unchanged",
+            "visibility": "unchanged",
+            "lastUpdateTime": "0001-01-01T00:00:00"
+          }
+        }
+      }
+    },
+    "resourceVersion": "3.0-preview.1",
+    "resourceContainers": {
+      "collection": {
+        "id": "5dbabe9d-fa02-4f31-bf5f-e05b9c29910f",
+        "baseUrl": "https://disruptscorporation.vsrm.visualstudio.com/"
+      },
+      "account": {
+        "id": "bc1a7427-44b2-4a4d-a595-4125e4818a54",
+        "baseUrl": "https://disruptscorporation.vsrm.visualstudio.com/"
+      },
+      "project": {
+        "id": "0be890c3-002d-4d18-b188-83cc22e82918",
+        "baseUrl": "https://disruptscorporation.vsrm.visualstudio.com/"
+      }
+    },
+    "createdDate": "2019-02-26T04:53:26.6517521Z"
+  }
