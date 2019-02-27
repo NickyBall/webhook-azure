@@ -163,31 +163,28 @@ router.post('/vsts', function (req, res, next) {
         ];
     }
 
-    for (var i = 0; i < facts.length; i++) {
-        var fact = facts[i];
-        var card = {
-            "@type": "MessageCard",
-            "@context": "http://schema.org/extensions",
-            "themeColor": "0076D7",
-            "summary": name,
-            "sections": [{
-                "activityTitle": name,
-                "activitySubtitle": subtitle,
-                // "activityImage": "https://teamsnodesample.azurewebsites.net/static/img/image5.png",
-                "facts": facts,
-                "markdown": true
-            }],
-            "potentialAction": [{
-                "@type": "OpenUri",
-                "name": "Go to Portal",
-                "targets": [{
-                    "os": "default",
-                    "uri": content.portalLink
-                }]
+    var card = {
+        "@type": "MessageCard",
+        "@context": "http://schema.org/extensions",
+        "themeColor": "0076D7",
+        "summary": name,
+        "sections": [{
+            "activityTitle": name,
+            "activitySubtitle": subtitle,
+            // "activityImage": "https://teamsnodesample.azurewebsites.net/static/img/image5.png",
+            "facts": facts,
+            "markdown": true
+        }],
+        "potentialAction": [{
+            "@type": "OpenUri",
+            "name": "Go to Portal",
+            "targets": [{
+                "os": "default",
+                "uri": content.portalLink
             }]
-        };
-        webhook.trigger('msteam4ts', card);
-    }
+        }]
+    };
+    webhook.trigger('msteam4ts', card);
     res.end();
 });
 
