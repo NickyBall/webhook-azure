@@ -143,7 +143,7 @@ router.post('/vsts', function (req, res, next) {
         facts = [
             {
                 "name": "Message",
-                "value": "Build สำเร็จ!! ขณะนี้ Service ไม่สามารถใช้งานได้"
+                "value": "ขณะนี้ Service ไม่สามารถใช้งานได้"
             },
             {
                 "name": "Build Number",
